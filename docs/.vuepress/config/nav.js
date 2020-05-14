@@ -1,15 +1,15 @@
 module.exports = [
   {text: '首页', link: '/'},
   {text: '指南', link: '/pages/a2f161/', items: [
-    {text: '介绍', link: '/pages/a2f161/'},
     {text: '主题初衷与诞生', link: '/pages/52d5c3/'},
+    {text: '介绍', link: '/pages/a2f161/'},
     {text: '快速上手', link: '/pages/793dcb/'},
     {text: '目录结构', link: '/pages/2f674a/'},
     {text: '构建结构化站点的核心配置和约定', link: '/pages/33d574/'},
     {text: '自动生成front matter', link: '/pages/088c16/'},
     {text: '批量操作front matter工具', link: '/pages/2b8e22/'},
     {text: '部署', link: '/pages/0fc1d2/'},
-    {text: '关于写文章', link: '/pages/9ae0bd/'},
+    {text: '关于写文章和H1标题', link: '/pages/9ae0bd/'},
     {text: '关于博客搭建与管理', link: '/pages/26997d/'},
   ]},
   {text: '配置', link: '/pages/a20ce8/', items: [
@@ -22,8 +22,9 @@ module.exports = [
     {text: '评论栏', link: '/pages/ce175c/'},
   ]},
   {text: '插件', link: '/pages/db78e2/'},
+  {text: '案例', link: '/pages/5d571c/'},
   {text: '支持', link: '/pages/1b12ed/'},
-  {text: '留言', link: '/pages/5dfce5/'},
+  {text: '反馈', link: '/pages/5dfce5/'},
   // {
   //   text: '前端',
   //   link: '/web/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页

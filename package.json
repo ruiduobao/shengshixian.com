@@ -10,13 +10,14 @@
   "license": "MIT",
   "devDependencies": {
     "inquirer": "^7.1.0",
+    "json2yaml": "^1.1.0",
     "moment": "^2.25.3",
     "vuepress": "^1.4.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.0.0-beta.4",
+    "vuepress-theme-vdoing": "^1.0.0-beta.5",
     "yamljs": "^0.3.0"
   }
 }
