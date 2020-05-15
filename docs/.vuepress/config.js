@@ -108,6 +108,12 @@ module.exports = {
       ]
     }],
 
+    [
+      'vuepress-plugin-baidu-tongji', // 百度统计
+      {
+        hm: '01293bffa6c3962016c08ba685c79d78'
+      }
+    ],
 
     ['one-click-copy', { // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array

@@ -27,15 +27,15 @@ postList: none
 
 ## 初衷
 
-这个主题的初衷是打造一个好用的程序员`知识管理工具`。
+这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`。
 
-[**主题初衷与诞生**](/pages/52d5c3)
+[**主题初衷与诞生**](/vuepress-theme-vdoing-doc/pages/52d5c3)
 
 
 ## 这个主题可以做什么？
 * 案例1：[知识库兼博客站](https://xugaoyi.com/)
-* 案例2：仅知识库
-* 案例3：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
+* 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
+* 案例3：仅知识库
 * 案例4：文档站(本站点)
 
 ## 支持

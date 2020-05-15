@@ -13,6 +13,7 @@
     "json2yaml": "^1.1.0",
     "moment": "^2.25.3",
     "vuepress": "^1.4.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
