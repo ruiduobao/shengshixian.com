@@ -11,6 +11,7 @@ module.exports = [
     {text: '部署', link: '/pages/0fc1d2/'},
     {text: '关于写文章和H1标题', link: '/pages/9ae0bd/'},
     {text: '关于博客搭建与管理', link: '/pages/26997d/'},
+    {text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/'},
   ]},
   {text: '配置', link: '/pages/a20ce8/', items: [
     {text: '主题配置', link: '/pages/a20ce8/'},

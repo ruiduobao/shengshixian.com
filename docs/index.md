@@ -42,14 +42,20 @@ postList: none
 ## 这个主题可以做什么？
 * 案例1：[知识库兼博客站](https://xugaoyi.com/)
 * 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
-* 案例3：仅知识库
+* 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
 * 案例4：文档站(本站点)
 
+## 更新日志
+
+[更新日志](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+
 ## 支持
+
 ::: tip
 你任何形式的支持都是对我的肯定，我会坚持初心把这个项目做得更好。当然，你的支持力度越大我会越开心，哈哈😀~~
 如果你觉得这个项目对你有帮助，可以给作者打赏一杯咖啡☕
 :::
+
 | Wechat | Alipay |
 | :---: | :---: |
 | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=180>| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=180> |
