@@ -24,7 +24,7 @@ module.exports = [
   ]},
   {text: '插件', link: '/pages/db78e2/'},
   {text: '案例', link: '/pages/5d571c/'},
-  {text: '支持', link: '/pages/1b12ed/'},
+  {text: '赞赏', link: '/pages/1b12ed/'},
   {text: '反馈', link: '/pages/5dfce5/'},
   // {
   //   text: '前端',
