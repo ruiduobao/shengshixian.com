@@ -26,7 +26,7 @@ postList: none
 ---
 
 ## 上新推荐 🎉
-`v1.1.0`版本发布啦~，从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb) 吧~
+`v1.1.0`版本发布啦~，从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/vuepress-theme-vdoing-doc/pages/d0d7eb) 吧~  (2020.05.29)
 
 </br></br></br>
 
