@@ -31,6 +31,8 @@ postList: none
 * `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等 (2020.06.09)
 * `v1.1.x`：从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~  (2020.05.29)
 
+更多上新请查阅：[更新日志](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+
 </br></br></br>
 
 <p align="left">
