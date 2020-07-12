@@ -33,6 +33,13 @@ postList: none
 
 更多上新请查阅：[更新日志](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
 
+::: center
+
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="npm" class="no-zoom" style="width:300px;">
+
+#### Vdoing官方交流群: 694387113
+:::
+
 </br></br></br>
 
 <p align="left">
