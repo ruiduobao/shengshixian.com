@@ -35,7 +35,7 @@ postList: none
 
 ::: center
 
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="npm" class="no-zoom" style="width:300px;">
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号: 694387113" class="no-zoom" style="width:300px;">
 
 #### Vdoing官方交流群: 694387113
 :::
