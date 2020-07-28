@@ -3,4 +3,5 @@
 
 <h2 align="center">vuepress-theme-vdoing</h2>
 
+[文档地址](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
 [主题仓库](https://github.com/xugaoyi/vuepress-theme-vdoing)
