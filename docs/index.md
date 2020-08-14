@@ -26,58 +26,29 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-
-## 上新推荐 🎉
-* `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，可以让你的文章看起来像笔记本的风格哟~(2020.07.30)
-* `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等 (2020.06.09)
-* `v1.1.x`：从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~  (2020.05.29)
-
-更多上新请查阅：[更新日志](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
-
-::: center
-
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号: 694387113" class="no-zoom" style="width:300px;">
-
-#### Vdoing官方交流群: 694387113
-:::
-
-</br></br></br>
-
 <p align="left">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/dt/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
 </p>
+<br/>
 
+## 🎉上新推荐 
+* `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，可以让你的文章看起来像笔记本的风格哟~(2020.07.30)
+* `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等 (2020.06.09)
+* `v1.1.x`：从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~  (2020.05.29)
 
+更多上新请查阅：[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
 
-## 主题初衷
+<br/>
 
-这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`。 [**主题初衷与诞生**](/pages/52d5c3/)
+## 🔔交流群 
+::: center
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号: 694387113" class="no-zoom" style="width:300px;">
 
-
-## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://xugaoyi.com/)
-* 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
-* 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
-* 案例4：文档站(本站点)
-
-## 更新日志
-
-[更新日志](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
-
-## 赞赏
-
-::: tip 愿这款知识管理主题能够助你变得强大
-
-你任何形式的支持都是对我的肯定，我会坚持初心把这个项目做得更好。
-
-当然，能获得赞赏将会使我更有动力去做好这个项目😀~~
-
-如果你觉得这个项目对你有帮助，可以给作者打赏一杯咖啡☕ ，前往 [赞赏](/pages/1b12ed/) 。
+#### Vdoing官方交流群: 694387113
 :::
-
 
 ## 许可证
 [MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
