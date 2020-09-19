@@ -3,7 +3,7 @@ home: true
 heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
 heroText: vuepress-theme-vdoing
 tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
-actionText: 快速上手 →
+actionText: 开始使用 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
@@ -32,7 +32,7 @@ postList: none
 </p>
 <br/>
 
-## 🎉上新推荐 
+## 🎉上新推荐
 * `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，可以让你的文章看起来像笔记本的风格哟~(2020.07.30)
 * `v1.2.x`：这个版本对整体的UI细节做了很多优化，比如标签栏和分类栏等 (2020.06.09)
 * `v1.1.x`：从这个版本开始主题新增了两个`超好用`、`高颜值`的Markdown容器，快去 [体验](/pages/d0d7eb/) 吧~  (2020.05.29)
@@ -41,7 +41,7 @@ postList: none
 
 <br/>
 
-## 🔔交流群 
+## 🔔交流群
 ::: center
 <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号: 694387113" class="no-zoom" style="width:300px;">
 
