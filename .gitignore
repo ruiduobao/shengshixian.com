@@ -5,7 +5,10 @@ node_modules
 # vscode
 .vscode
 
-# vuepress 
+#yarn
+yarn.lock
+
+# vuepress
 docs/.vuepress/dist
 
 # 百度链接推送
