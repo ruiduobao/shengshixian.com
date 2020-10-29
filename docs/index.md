@@ -26,6 +26,27 @@ postList: none
 </p>
 <br/>
 
+## ⚡️未来...
+
+### [VuePress-next (VuePress v2.0)](https://github.com/vuepress/vuepress-next)
+> VuePress-next with the power of Vue 3.0 and TypeScript
+
+### [VitePress](https://github.com/vuejs/vitepress)
+
+> * Uses Vue 3.
+> * Uses vite under the hood:
+> * Vue 3 tree-shaking + Rollup code splitting
+>
+> VuePress' little brother, built on top of vite. It's currently under a different name so that we don't over commit to the compatibility with the current VuePress ecosystem (mostly themes and plugins). We'll see how close we can get without compromising the design goals listed above. But the overall idea is that VitePress will have a drastically more minimal theming API (preferring JavaScript APIs instead of file layout conventions) and likely no plugins (all customization is done in themes).
+
+::: tip
+期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
+
+届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress，也可能两个都升级。目前(2020.10.29)来看还需要挺长一段时间才能让大家使用上基于它们的新版本，还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
+:::
+
+<br/>
+
 ## 🎉上新推荐
 * `v1.5.x`：新增[`笔记`容器](/pages/d0d7eb/)，轻松插入笔记框。
 * `v1.4.x`：新增了文章内容区块的 [背景底纹配置](/pages/a20ce8/#文章内容块的背景底纹)，可以让你的文章看起来像笔记本的风格哟~(2020.07.30)
