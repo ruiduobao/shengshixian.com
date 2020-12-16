@@ -3,10 +3,8 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
+echo "module.exports = '/vuepress-theme-vdoing-doc/'" > base.js
 npm run build
-
-# 进入生成的文件夹
 cd docs/.vuepress/dist
 
 # deploy to github
@@ -25,31 +23,40 @@ git add -A
 git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github
 
+cd -
+rm -rf docs/.vuepress/dist
+
 # deploy to coding
-cd ../
-mkdir dist2
-cd dist2
-mkdir vuepress-theme-vdoing-doc
-cd ../
-mv dist/* dist2/vuepress-theme-vdoing-doc
-cd dist2
+echo "module.exports = '/'" > base.js
+npm run build
+cd docs/.vuepress/dist
+
 echo 'doc.xugaoyi.com' > CNAME  # 自定义域名
 
-git init
-git add -A
-git commit -m "${msg}"
+# cd ../
+# mkdir dist2
+# cd dist2
+# mkdir vuepress-theme-vdoing-doc
+# cd ../
+# mv dist/* dist2/vuepress-theme-vdoing-doc
+# cd dist2
+# echo 'doc.xugaoyi.com' > CNAME  # 自定义域名
 
-if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true
   codingUrl=git@e.coding.net:xgy/vdoing-doc/vdoing-doc.git
 else
   codingUrl=https://HmuzsGrGQX:${CODING_TOKEN}@e.coding.net/xgy/vdoing-doc/vdoing-doc.git
 fi
+
+git init
+git add -A
+git commit -m "${msg}"
 git push -f $codingUrl master # 推送到coding
 
 
-cd -
-rm -rf dist
-rm -rf dist2
+# cd -
+# rm -rf dist
+# rm -rf dist2
 
-# cd - # 退回开始所在目录
-# rm -rf docs/.vuepress/dist
+cd -
+rm -rf docs/.vuepress/dist

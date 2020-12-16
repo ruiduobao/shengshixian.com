@@ -1,9 +1,10 @@
 const nav = require('./config/nav.js');
+const base = require('../../base.js');
 
 module.exports = {
   title: "vuepress-theme-vdoing",
   description: '一个基于VuePress的 知识管理&博客 主题',
-  base: '/vuepress-theme-vdoing-doc/', // '/<github仓库名>/'， 默认'/' 
+  base, // '/<仓库名>/'， 默认'/'
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
@@ -49,9 +50,9 @@ module.exports = {
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
     // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
 
-    
+
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
-    
+
     // contentBgStyle: 1,
 
     category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
