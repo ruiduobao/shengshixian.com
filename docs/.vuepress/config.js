@@ -1,5 +1,6 @@
 const nav = require('./config/nav.js');
 const base = require('../../base.js');
+const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
   title: "vuepress-theme-vdoing",
@@ -9,6 +10,22 @@ module.exports = {
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
     ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
+    [
+      'script',
+      {
+        'data-ad-client': 'ca-pub-7828333725993554',
+        async: 'async',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      },
+    ], // 网站关联Google AdSense 与 html格式广告支持
+    [
+      'script',
+      {
+        'custom-element': 'amp-ad',
+        async: 'async',
+        src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',
+      },
+    ], // AMP广告支持 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
     // 以下是vuepress-plugin-demo-block插件所需依赖
     // ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }], // 此文件会影响导航router-link-active样式的切换，改为在enhanceApp.js中把Vue构造函数绑定到window上
@@ -86,7 +103,8 @@ module.exports = {
     footer:{ // 页脚信息
       createYear: 2019, // 博客创建年份
       copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
-    }
+    },
+    htmlModules,
   },
   plugins: [ // 插件
     // [require('./plugins/love-me'), { // 鼠标点击爱心特效
@@ -148,9 +166,9 @@ module.exports = {
       '@vuepress/last-updated', // "上次更新"时间格式
       {
         transformer: (timestamp, lang) => {
-          const moment = require('moment') // https://momentjs.com/
-          return moment(timestamp).format('YYYY/MM/DD, H:MM:SS');
-        }
+          const dayjs = require('dayjs') // https://day.js.org/
+          return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+        },
       }
     ]
   ],
