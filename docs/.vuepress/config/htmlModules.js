@@ -40,11 +40,13 @@ module.exports = {
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
   sidebarB:
-    `<!-- 100% * 150px (可正常显示)-->
-     <ins class="adsbygoogle"
-          style="display:inline-block;width:100%;max-height:150px"
+    `<!-- 正方形 -->
+      <ins class="adsbygoogle"
+          style="display:block"
           data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6625304284"></ins>
+          data-ad-slot="3508773082"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
       </script>`,

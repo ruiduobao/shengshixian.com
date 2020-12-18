@@ -18,14 +18,6 @@ module.exports = {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
       },
     ], // 网站关联Google AdSense 与 html格式广告支持
-    [
-      'script',
-      {
-        'custom-element': 'amp-ad',
-        async: 'async',
-        src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',
-      },
-    ], // AMP广告支持 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
     // 以下是vuepress-plugin-demo-block插件所需依赖
     // ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }], // 此文件会影响导航router-link-active样式的切换，改为在enhanceApp.js中把Vue构造函数绑定到window上

@@ -10,6 +10,7 @@ initDist(){
 }
 
 initDist "module.exports = '/vuepress-theme-vdoing-doc/'"
+echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
@@ -37,6 +38,7 @@ rm -rf docs/.vuepress/dist
 # deploy to coding
 initDist "module.exports = '/'"
 echo 'doc.xugaoyi.com' > CNAME  # 自定义域名
+echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
 if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true
   codingUrl=git@e.coding.net:xgy/vdoing-doc/vdoing-doc.git
