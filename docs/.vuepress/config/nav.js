@@ -9,7 +9,7 @@ module.exports = [
       { text: '核心配置和约定', link: '/pages/33d574/' },
       { text: '自动生成front matter', link: '/pages/088c16/' },
       { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
-      { text: 'Markdown 内置组件', link: '/pages/197691/' },
+      { text: 'Markdown 中使用组件', link: '/pages/197691/' },
       {
         text: '相关文章', items: [
           { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
