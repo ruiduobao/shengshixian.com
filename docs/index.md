@@ -18,12 +18,32 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-<p align="left">
+
+
+<br/>
+<p align="center">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/v/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing" target="_blank"><img src="https://img.shields.io/npm/dt/vuepress-theme-vdoing" alt="npm" class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing' alt='GitHub stars' class="no-zoom"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
 </p>
+
+## 🎖特别用户
+::: cardList 2
+```yaml
+- name: OpenHarmony
+  desc: 🚀开放原子开源基金会
+  link: https://www.openharmony.cn/
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+- name: Deepin 社区
+  desc: 🚀Deepin 应用开发技术分享、DTK开发经验等
+  link: https://docs.deepin.org
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+```
+:::
+
 <br/>
 
 ## ⚡️未来...
@@ -49,11 +69,11 @@ postList: none
 
 <br/>
 
-## 🔔交流群
+## 🔔交流QQ群
 ::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号: 694387113" class="no-zoom" style="width:300px;">
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" class="no-zoom" style="width:200px;">
 
-#### Vdoing官方交流群: 694387113
+#### Vdoing官方QQ群: 694387113
 :::
 
 ## 公众号
@@ -61,6 +81,8 @@ postList: none
 
 <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:370px;" />
 <!-- <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:30%;" /> -->
+
+<br/>
 
 ## 许可证
 [MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
