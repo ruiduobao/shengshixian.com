@@ -31,15 +31,15 @@ postList: none
 ## 🎖特别用户
 ::: cardList 2
 ```yaml
-- name: OpenHarmony
-  desc: 🚀开放原子开源基金会
-  link: https://www.openharmony.cn/
-  bgColor: '#DFEEE7'
-  textColor: '#2A3344'
+# - name: OpenHarmony
+#   desc: 🚀开放原子开源基金会
+#   link: https://www.openharmony.cn/
+#   bgColor: 'rgb(221, 237, 234)'
+#   textColor: '#2A3344'
 - name: Deepin 社区
   desc: 🚀Deepin 应用开发技术分享、DTK开发经验等
   link: https://docs.deepin.org
-  bgColor: '#DFEEE7'
+  bgColor: 'rgb(250, 235, 221)'
   textColor: '#2A3344'
 ```
 :::
