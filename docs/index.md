@@ -18,7 +18,20 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
+<p align="center">
+<a class="become-sponsor" href="/pages/1b12ed/#成为赞助商">成为赞助商</a>
+</p>
 
+<style>
+  .become-sponsor{
+    padding: 8px 20px;
+    display: inline-block;
+    color: #11a8cd;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid #11a8cd;
+  }
+  </style>
 
 <br/>
 <p align="center">
