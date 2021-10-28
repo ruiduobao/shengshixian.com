@@ -42,22 +42,22 @@ postList: none
 </p>
 
 ## 🎖特别用户
-::: cardList 2
+::: cardList 3
 ```yaml
-# - name: OpenHarmony
-#   desc: 🚀开放原子开源基金会
-#   link: https://www.openharmony.cn/
-#   bgColor: 'rgb(221, 237, 234)'
-#   textColor: '#2A3344'
+- name: OpenHarmony
+  desc: 🚀开放原子开源基金会
+  link: https://www.openharmony.cn/
+  bgColor: 'rgb(221, 237, 234)'
+  textColor: '#2A3344'
 - name: Deepin 社区
   desc: 🚀Deepin 应用开发技术分享、DTK开发经验等
   link: https://docs.deepin.org
-  bgColor: 'rgb(250, 235, 221)'
+  bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 - name: VForm官网
   desc: 低代码表单优选方案，拖拽式设计，一键生成源码
   link: http://www.vform666.com
-  bgColor: 'rgb(250, 235, 221)'
+  bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 ```
 :::
@@ -89,16 +89,23 @@ postList: none
 
 ## 🔔交流QQ群
 ::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" class="no-zoom" style="width:200px;">
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" style="width:200px;">
 
 #### Vdoing官方QQ群: 694387113
 :::
 
 ## 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如80、90后朋友小时候玩的小霸王游戏机：<https://game.xugaoyi.com>，还有更多好玩的等你去探索吧~
+`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
+- [小霸王游戏机](https://game.xugaoyi.com)
+- [爱国头像生成器](https://avatar.xugaoyi.com/)
+- [到账语音生成器](https://zfb.xugaoyi.com/)
 
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:370px;" />
-<!-- <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:30%;" /> -->
+还有更多好玩的等你去探索吧~
+
+::: center
+<!-- <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:370px;" /> -->
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:200px;" />
+:::
 
 <br/>
 
