@@ -87,14 +87,7 @@ postList: none
 
 <br/>
 
-## 🔔交流QQ群
-::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" style="width:200px;">
-
-#### Vdoing官方QQ群: 694387113
-:::
-
-## 公众号
+## 💎 公众号
 `有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如：
 - [小霸王游戏机](https://game.xugaoyi.com)
 - [爱国头像生成器](https://avatar.xugaoyi.com/)
@@ -109,7 +102,15 @@ postList: none
 
 <br/>
 
-## 许可证
-[MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
+## ⚡ 反馈与交流
 
-Copyright (c) 2019-present Evan Xu
+在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
+你也可以在Issue查看别人提的问题和给出解决方案。
+
+或者加入我们的QQ交流群：
+
+::: center
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" class="no-zoom" style="width:200px;">
+
+#### Vdoing官方QQ群: 694387113
+:::
