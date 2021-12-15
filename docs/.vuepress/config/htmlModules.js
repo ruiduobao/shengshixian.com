@@ -22,19 +22,19 @@
 module.exports = {
   // 万维广告
   pageT: `
-  <div class="wwads-cn wwads-horizontal pageT" data-id="136" style="width:100%;max-height:40px;min-height:40px;"></div>
+  <div class="wwads-cn wwads-horizontal pageT" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
   <style>
-    .pageT img{width:40px!important;}
+    .pageT img{width:70px!important;}
   </style>
   `,
-  pageB: `
-    <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
-    <style>
-      .pageB img{width:70px!important;}
-    </style>
-  `,
+  // pageB: `
+  //   <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
+  //   <style>
+  //     .pageB img{width:70px!important;}
+  //   </style>
+  // `,
   windowRB: `
-    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:180px;"></div>
+    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:160px;"></div>
     <script>
         var ele = document.querySelector('#windowRB').parentElement.parentElement;
         ele.firstChild.hidden = true;
