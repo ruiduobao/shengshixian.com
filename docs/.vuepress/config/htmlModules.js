@@ -21,12 +21,17 @@
 
 module.exports = {
   // 万维广告
-  pageT: `<div class="wwads-cn wwads-horizontal" data-id="136" style="width:100%;max-height:50px;min-height:50px;"></div>`,
+  pageT: `
+  <div class="wwads-cn wwads-horizontal pageT" data-id="136" style="width:100%;max-height:40px;min-height:40px;"></div>
+  <style>
+    .pageT img{width:40px!important;}
+  </style>
+  `,
   pageB: `<div class="wwads-cn wwads-horizontal" data-id="136" style="width:100%;max-height:90px;"></div>`,
   windowRB: `
-    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:150px;"></div>
+    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:160px;"></div>
     <script>
-        var ele = document.querySelector('#windowRB').parentElement.parentElement;\
+        var ele = document.querySelector('#windowRB').parentElement.parentElement;
         ele.firstChild.hidden = true;
     </script>
   `
