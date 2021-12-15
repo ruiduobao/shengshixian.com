@@ -18,79 +18,18 @@
  * ②注：windowLB 和 windowRB：1.展示区块宽高最大是200*200px。2.请给自定义元素定一个不超过200px的固定宽高。3.在屏宽小于960px时无论如何都不会显示。
  */
 
+
 module.exports = {
-  // homeSidebarB:
-  //   `<!-- 纵向自适应 -->
-  //   <ins class="adsbygoogle"
-  //       style="display:block"
-  //       data-ad-client="ca-pub-7828333725993554"
-  //       data-ad-slot="7802654582"
-  //       data-ad-format="auto"
-  //       data-full-width-responsive="true"></ins>
-  //   <script>
-  //       (adsbygoogle = window.adsbygoogle || []).push({});
-  //   </script>`,
-  // sidebarT:
-  //   `<!-- 100% * 150px (可正常显示)-->
-  //   <ins class="adsbygoogle"
-  //         style="display:inline-block;width:100%;max-height:150px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
-  sidebarB:
-    `<!-- 正方形 -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="3508773082"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
-  // pageT: //
-  //   `<!-- 100% * max-120px (暂未看到效果)-->
-  //    <ins class="adsbygoogle"
-  //         style="display:inline-block;width:100%;max-height:120px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
-  // pageTshowMode: 'article',
-  pageB:
-    `<!-- 横向自适应 -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6620245489"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
-  // pageBshowMode: 'article',
-  // windowLB: // 遮挡部分侧边栏
-  //   `<!-- 固定200*200px -->
-  //     <ins class="adsbygoogle"
-  //         style="display:inline-block;width:200px;height:200px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
-  windowRB:
-     `<!-- 固定160*160px -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;width:160px;height:160px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="8377369658"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      `,
+  // 万维广告
+  pageT: `<div class="wwads-cn wwads-horizontal" data-id="136" style="width:100%;max-height:90px;"></div>`,
+  windowRB: `
+    <div class="wwads-cn wwads-vertical" data-id="136" style="max-width:200px;"></div>
+    <script>
+        var ele = document.querySelector('.wwads-vertical').parentElement.parentElement;
+        ele.style.maxHeight = 'unset';
+        ele.firstChild.hidden = true;
+    </script>
+  `
 }
 
 
