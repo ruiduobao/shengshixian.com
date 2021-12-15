@@ -8,16 +8,19 @@ module.exports = {
   base, // '/<仓库名>/'， 默认'/'
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
-    ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
-    [
-      'script',
-      {
-        'data-ad-client': 'ca-pub-7828333725993554',
-        async: 'async',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-      },
-    ], // 网站关联Google AdSense 与 html格式广告支持
+    ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
+    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+
+    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告验证，你可以去掉
+    // [
+    //   'script',
+    //   {
+    //     'data-ad-client': 'ca-pub-7828333725993554',
+    //     async: 'async',
+    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+    //   },
+    // ], // 网站关联Google AdSense 与 html格式广告支持
+
 
     // 以下是vuepress-plugin-demo-block插件所需依赖
     // ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }], // 此文件会影响导航router-link-active样式的切换，改为在enhanceApp.js中把Vue构造函数绑定到window上
@@ -72,7 +75,7 @@ module.exports = {
       name: 'Evan Xu', // 必需
       href: 'https://github.com/xugaoyi' // 可选的
     },
-    social:{ // 社交图标，显示于博主信息栏和页脚栏
+    social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
       icons: [
         {
@@ -92,7 +95,7 @@ module.exports = {
         }
       ]
     },
-    footer:{ // 页脚信息
+    footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
       copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
     },
@@ -148,7 +151,7 @@ module.exports = {
     [
       'vuepress-plugin-zooming', // 放大图片
       {
-        selector:'.theme-vdoing-content img:not(.no-zoom)',
+        selector: '.theme-vdoing-content img:not(.no-zoom)',
         options: {
           bgColor: 'rgba(0,0,0,0.6)'
         },
