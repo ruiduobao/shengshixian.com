@@ -21,9 +21,10 @@
 
 module.exports = {
   // 万维广告
+  pageT: `<div class="wwads-cn wwads-horizontal" data-id="136" style="width:100%;max-height:50px;min-height:50px;"></div>`,
   pageB: `<div class="wwads-cn wwads-horizontal" data-id="136" style="width:100%;max-height:90px;"></div>`,
   windowRB: `
-    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:180px;"></div>
+    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:150px;"></div>
     <script>
         var ele = document.querySelector('#windowRB').parentElement.parentElement;\
         ele.firstChild.hidden = true;
