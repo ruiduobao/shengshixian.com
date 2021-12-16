@@ -35,6 +35,11 @@ module.exports = {
   // `,
   windowRB: `
     <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:160px;"></div>
+    <style>
+      .custom-html-window-rb .close-but{
+        display: none;
+      }
+    </style>
     <script>
         // 检查广告拦截器
         // function called if wwads is blocked
@@ -58,7 +63,6 @@ module.exports = {
             }
           }, 3000);
         });
-
     </script>
   `
 }
