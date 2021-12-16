@@ -1,4 +1,7 @@
+let baiduCode = ''; // 百度统计hm码（为了本站百度统计正常，我只在部署时自动添加统计码，你可以填你自己的统计码或者去掉。）
 const htmlModules = require('./config/htmlModules.js');
+
+console.log(baiduCode, 'baiduCode'); // TODO
 
 module.exports = {
 
@@ -156,7 +159,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: '38d03aec208994351ceef1d01dae2382'
+        hm: baiduCode || ''
       }
     ],
 
