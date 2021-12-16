@@ -1,7 +1,6 @@
-let baiduCode = ''; // 百度统计hm码（为了本站百度统计正常，我只在部署时自动添加统计码，你可以填你自己的统计码或者去掉。）
+const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
 const htmlModules = require('./config/htmlModules.js');
 
-console.log(baiduCode, 'baiduCode'); // TODO
 
 module.exports = {
 
