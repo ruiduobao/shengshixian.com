@@ -116,7 +116,8 @@ postList: none
 :::
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
+<br/><br/>
+<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:80px;"></div>
 <style>
-  .pageB img{width:70px!important;}
+  .pageB img{width:80px!important;}
 </style>
