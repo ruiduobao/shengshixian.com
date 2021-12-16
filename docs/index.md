@@ -114,3 +114,9 @@ postList: none
 
 #### Vdoing官方QQ群: 694387113
 :::
+
+<!-- AD -->
+<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
+<style>
+  .pageB img{width:70px!important;}
+</style>
