@@ -19,19 +19,19 @@ features: # 可选的
 postList: none
 ---
 <p align="center">
-<a class="become-sponsor" href="/pages/1b12ed/#成为赞助商">成为赞助商</a>
+  <a class="become-sponsor" href="/pages/1b12ed/#成为赞助商">成为赞助商</a>
 </p>
 
 <style>
-  .become-sponsor{
-    padding: 8px 20px;
-    display: inline-block;
-    color: #11a8cd;
-    border-radius: 30px;
-    box-sizing: border-box;
-    border: 1px solid #11a8cd;
-  }
-  </style>
+.become-sponsor{
+  padding: 8px 20px;
+  display: inline-block;
+  color: #11a8cd;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 1px solid #11a8cd;
+}
+</style>
 
 <br/>
 <p align="center">
@@ -57,6 +57,11 @@ postList: none
 - name: VForm官网
   desc: 低代码表单优选方案，拖拽式设计，一键生成源码
   link: http://www.vform666.com
+  bgColor: 'rgb(221, 237, 234)'
+  textColor: '#2A3344'
+- name: Mybatis-Plus官网
+  desc: 🚀为简化开发而生
+  link: https://baomidou.com/
   bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 ```
