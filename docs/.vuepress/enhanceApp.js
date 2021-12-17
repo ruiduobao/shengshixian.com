@@ -35,8 +35,12 @@ function ABDetected() {
 
 //check document ready
 function docReady(t) {
-  "complete" === document.readyState ||
-    "interactive" === document.readyState
-    ? setTimeout(t, 1)
-    : document.addEventListener("DOMContentLoaded", t);
+  try {
+    "complete" === document.readyState ||
+      "interactive" === document.readyState
+      ? setTimeout(t, 1)
+      : document.addEventListener("DOMContentLoaded", t);
+  } catch (err) {
+    console.log(err);
+  }
 }
