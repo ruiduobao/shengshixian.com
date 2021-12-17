@@ -9,13 +9,18 @@ export default ({
   router.beforeEach((to, from, next) => {
     next();
     //check if wwads' fire function was blocked after document is ready with 3s timeout (waiting the ad loading)
-    docReady(function () {
-      setTimeout(function () {
-        if (window._AdBlockInit === undefined) {
-          ABDetected();
-        }
-      }, 3000);
-    });
+    try {
+      docReady(function () {
+        setTimeout(function () {
+          if (window._AdBlockInit === undefined) {
+            ABDetected();
+          }
+        }, 3000);
+      });
+    } catch (err) {
+      console.log(err);
+    }
+
   })
 }
 
