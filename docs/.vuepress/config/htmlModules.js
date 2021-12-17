@@ -35,7 +35,8 @@ module.exports = {
     min-width: auto;min-height:auto;"></div>
     <style>
       .windowRB{ padding: 0;}
-      .windowRB .wwads-content{margin-left: 10;margin-right: 10px;}
+      .windowRB .wwads-img{margin-top: 10px;}
+      .windowRB .wwads-content{margin: 0 10px 10px 10px;}
       .custom-html-window-rb .close-but{
         display: none;
       }
