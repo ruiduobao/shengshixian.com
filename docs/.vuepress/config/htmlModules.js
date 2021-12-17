@@ -29,7 +29,21 @@ module.exports = {
     .pageT .wwads-poweredby{display:none!important;}
     .pageT .wwads-hide{display:none!important;}
   </style>
-  <script>
+  `,
+  // pageB: `
+  //   <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
+  //   <style>
+  //     .pageB img{width:70px!important;}
+  //   </style>
+  // `,
+  windowRB: `
+    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:160px;"></div>
+    <style>
+      .custom-html-window-rb .close-but{
+        display: none;
+      }
+    </style>
+    <script>
         // 检查广告拦截器
         // function called if wwads is blocked
         function ABDetected() {
@@ -53,20 +67,6 @@ module.exports = {
           }, 3000);
         });
     </script>
-  `,
-  // pageB: `
-  //   <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:70px;min-height:70px;"></div>
-  //   <style>
-  //     .pageB img{width:70px!important;}
-  //   </style>
-  // `,
-  windowRB: `
-    <div class="wwads-cn wwads-vertical" id="windowRB" data-id="136" style="max-width:160px;"></div>
-    <style>
-      .custom-html-window-rb .close-but{
-        display: none;
-      }
-    </style>
   `
 }
 
