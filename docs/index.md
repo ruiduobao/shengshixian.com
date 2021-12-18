@@ -19,7 +19,7 @@ features: # 可选的
 postList: none
 ---
 <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/#成为赞助商">成为赞助商</a>
+  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
 </p>
 
 <style>
