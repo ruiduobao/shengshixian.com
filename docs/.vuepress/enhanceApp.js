@@ -25,7 +25,7 @@ export default ({
       // 显示广告模块
       const pageT = document.querySelector('.pageT');
       if (pageT) {
-        pageT.style.display = 'block';
+        pageT.style.display = 'flex';
       }
     })
   }

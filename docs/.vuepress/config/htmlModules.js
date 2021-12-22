@@ -38,7 +38,7 @@ module.exports = {
           pageT.style.display = 'none';
         }
       }
-    }, 5000);
+    }, 4000);
   </script>
   `,
   windowRB: `
