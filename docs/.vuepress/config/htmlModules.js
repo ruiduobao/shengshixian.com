@@ -31,8 +31,14 @@ module.exports = {
   </style>
   <script>
     setTimeout(() => {
-      document.querySelector('.pageT .wwabs-hide').setAttribute('οnclick', 'parentNode.style.display = "none"')
-    }, 1000);
+      const btnEl = document.querySelector('.pageT .wwabs-hide');
+      console.log(btnEl,'btnEl');
+      btnEl.onclick = () => {
+        console.log(this.parentNode,'this.parentNode');
+        this.parentNode.style.display = 'none';
+      }
+      // document.querySelector('.pageT .wwabs-hide').setAttribute('οnclick', 'parentNode.style.display = "none"')
+    }, 5000);
   </script>
   `,
   windowRB: `

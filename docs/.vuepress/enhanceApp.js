@@ -21,6 +21,12 @@ export default ({
           }
         }, 3000);
       });
+
+      // 显示广告模块
+      const adEl = document.querySelector('.wwads-horizontal');
+      if (adEl) {
+        adEl.style.display = 'block';
+      }
     })
   }
 }
