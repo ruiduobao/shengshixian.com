@@ -27,7 +27,7 @@ module.exports = {
     .pageT img{width:70px!important;}
     .pageT .wwads-content{display:flex;align-items: center;}
     .pageT .wwads-poweredby{display:none!important;}
-    .pageT .wwads-hide{display:none!important;}
+    .pageT .wwads-hide{opacity: 0.5;}
   </style>
   `,
   windowRB: `
