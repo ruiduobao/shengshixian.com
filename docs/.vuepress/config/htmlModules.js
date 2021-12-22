@@ -29,6 +29,11 @@ module.exports = {
     .pageT .wwads-poweredby{display:none!important;}
     .pageT .wwads-hide{opacity: 0.5;}
   </style>
+  <script>
+    setTimeout(() => {
+      document.querySelector('.pageT .wwabs-hide').setAttribute('οnclick', 'parentNode.style.display = "none"')
+    }, 1000);
+  </script>
   `,
   windowRB: `
     <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
