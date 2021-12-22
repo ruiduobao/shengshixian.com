@@ -31,13 +31,13 @@ module.exports = {
   </style>
   <script>
     setTimeout(() => {
-      const btnEl = document.querySelector('.pageT .wwabs-hide');
-      console.log(btnEl,'btnEl');
-      btnEl.onclick = () => {
-        console.log(this.parentNode,'this.parentNode');
-        this.parentNode.style.display = 'none';
+      const pageT = document.querySelector('.pageT');
+      const btnEl = pageT.querySelector('.wwads-hide');
+      if(btnEl){
+        btnEl.onclick = () => {
+          pageT.style.display = 'none';
+        }
       }
-      // document.querySelector('.pageT .wwabs-hide').setAttribute('οnclick', 'parentNode.style.display = "none"')
     }, 5000);
   </script>
   `,
