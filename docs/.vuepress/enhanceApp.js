@@ -22,6 +22,18 @@ export default ({
         }, 3000);
       });
 
+      // 删除事件改为隐藏事件
+      setTimeout(() => {
+        const pageT = document.querySelector('.pageT');
+        if (!pageT) return;
+        const btnEl = pageT.querySelector('.wwads-hide');
+        if (btnEl) {
+          btnEl.onclick = () => {
+            pageT.style.display = 'none';
+          }
+        }
+      }, 1000);
+
       // 显示广告模块
       const pageT = document.querySelector('.pageT');
       if (pageT) {

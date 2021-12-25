@@ -25,7 +25,6 @@ module.exports = {
   <div class="wwads-cn wwads-horizontal pageT" data-id="136" style="width:100%;max-height:70px;min-height:auto;"></div>
   <style>
     .pageT img{width:70px!important;}
-    .pageT .wwads-hide{opacity: 0.5;}
     .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
   </style>
   <script>
