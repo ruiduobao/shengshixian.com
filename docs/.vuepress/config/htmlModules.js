@@ -27,17 +27,6 @@ module.exports = {
     .pageT img{width:70px!important;}
     .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
   </style>
-  <script>
-    setTimeout(() => {
-      const pageT = document.querySelector('.pageT');
-      const btnEl = pageT.querySelector('.wwads-hide');
-      if(btnEl){
-        btnEl.onclick = () => {
-          pageT.style.display = 'none';
-        }
-      }
-    }, 4000);
-  </script>
   `,
   windowRB: `
     <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
