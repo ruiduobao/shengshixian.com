@@ -21,10 +21,10 @@
 
 module.exports = {
   // 万维广告
-  pageT: `
-  <div class="wwads-cn wwads-horizontal pageT" data-id="136" style="width:100%;max-height:70px;min-height:auto;"></div>
+  pageB: `
+  <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
   <style>
-    .pageT img{width:70px!important;}
+    .pageB img{width:80px!important;}
     .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
   </style>
   `,

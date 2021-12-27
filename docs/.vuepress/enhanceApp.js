@@ -24,20 +24,20 @@ export default ({
 
       // 删除事件改为隐藏事件
       setTimeout(() => {
-        const pageT = document.querySelector('.pageT');
-        if (!pageT) return;
-        const btnEl = pageT.querySelector('.wwads-hide');
+        const windowRB = document.querySelector('.windowRB');
+        if (!windowRB) return;
+        const btnEl = windowRB.querySelector('.wwads-hide');
         if (btnEl) {
           btnEl.onclick = () => {
-            pageT.style.display = 'none';
+            windowRB.style.display = 'none';
           }
         }
       }, 1000);
 
       // 显示广告模块
-      const pageT = document.querySelector('.pageT');
-      if (pageT) {
-        pageT.style.display = 'flex';
+      const windowRB = document.querySelector('.windowRB');
+      if (windowRB) {
+        windowRB.style.display = 'flex';
       }
     })
   }
