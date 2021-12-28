@@ -22,23 +22,23 @@ export default ({
         }, 3000);
       });
 
-      // 删除事件改为隐藏事件
-      setTimeout(() => {
-        const pageB = document.querySelector('.pageB');
-        if (!pageB) return;
-        const btnEl = pageB.querySelector('.wwads-hide');
-        if (btnEl) {
-          btnEl.onclick = () => {
-            pageB.style.display = 'none';
-          }
-        }
-      }, 1000);
+      // // 删除事件改为隐藏事件
+      // setTimeout(() => {
+      //   const pageB = document.querySelector('.pageB');
+      //   if (!pageB) return;
+      //   const btnEl = pageB.querySelector('.wwads-hide');
+      //   if (btnEl) {
+      //     btnEl.onclick = () => {
+      //       pageB.style.display = 'none';
+      //     }
+      //   }
+      // }, 1000);
 
-      // 显示广告模块
-      const pageB = document.querySelector('.pageB');
-      if (pageB) {
-        pageB.style.display = 'flex';
-      }
+      // // 显示广告模块
+      // const pageB = document.querySelector('.pageB');
+      // if (pageB) {
+      //   pageB.style.display = 'flex';
+      // }
     })
   }
 }

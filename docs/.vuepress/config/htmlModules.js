@@ -39,19 +39,6 @@ module.exports = {
         display: none;
       }
     </style>
-    <script>
-      // 删除事件改为隐藏事件
-      setTimeout(() => {
-        const windowRB = document.querySelector('.windowRB');
-        if (!windowRB) return;
-        const btnEl = windowRB.querySelector('.wwads-hide');
-        if (btnEl) {
-          btnEl.onclick = () => {
-            windowRB.style.display = 'none';
-          }
-        }
-      }, 3000);
-    </script>
   `
 }
 
