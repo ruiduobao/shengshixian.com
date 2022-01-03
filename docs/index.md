@@ -42,27 +42,27 @@ postList: none
 </p>
 
 ## 🎖特别用户
-::: cardList 3
+::: cardList 2
 ```yaml
 - name: OpenHarmony
   desc: 🚀开放原子开源基金会
   link: https://www.openharmony.cn/
-  bgColor: 'rgb(221, 237, 234)'
+  bgColor: '#f1f1f1'
   textColor: '#2A3344'
 - name: Deepin 社区
   desc: 🚀Deepin 应用开发技术分享、DTK开发经验等
   link: https://docs.deepin.org
-  bgColor: 'rgb(221, 237, 234)'
+  bgColor: '#f1f1f1'
   textColor: '#2A3344'
 - name: VForm官网
   desc: 低代码表单优选方案，拖拽式设计，一键生成源码
   link: http://www.vform666.com
-  bgColor: 'rgb(221, 237, 234)'
+  bgColor: '#f1f1f1'
   textColor: '#2A3344'
 - name: Mybatis-Plus官网
   desc: 🚀为简化开发而生
   link: https://baomidou.com/
-  bgColor: 'rgb(221, 237, 234)'
+  bgColor: '#f1f1f1'
   textColor: '#2A3344'
 ```
 :::
@@ -80,6 +80,7 @@ postList: none
 <br/>
 
 ## 🎉上新推荐
+* `v1.9.x`：新增配置文件对TypeScript的支持，参考[config.ts](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/docs/.vuepress/config.ts)。
 * `v1.8.x`：新增 Markdown中使用的组件：[代码块选项卡](/pages/197691/#代码块选项卡) 。
 * `v1.7.x`：新增 [自定义html模块](/pages/a20ce8/#自定义html模块) 配置，可用于插入广告模块。
 * `v1.6.x`：支持[`四级目录`](/pages/33d574/#级别说明)，提高[站点结构](/pages/33d574/#级别说明)可塑性。
