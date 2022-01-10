@@ -6,13 +6,12 @@ export default ({
   options, // 附加到根实例的一些选项
   router, // 当前应用的路由实例
   siteData, // 站点元数据
-  isServer // 当前应用配置是处于 服务端渲染 或 客户端
+  isServer // 当前应用配置是处于 服务端渲染 还是 客户端
 }) => {
 
   // 用于监控在路由变化时检查广告拦截器 (to主题使用者：你可以去掉本文件的所有代码)
   if (!isServer) {
-    router.beforeEach((to, from, next) => {
-      next();
+    router.afterEach(() => {
       //check if wwads' fire function was blocked after document is ready with 3s timeout (waiting the ad loading)
       docReady(function () {
         setTimeout(function () {
@@ -22,23 +21,19 @@ export default ({
         }, 3000);
       });
 
-      // // 删除事件改为隐藏事件
-      // setTimeout(() => {
-      //   const pageB = document.querySelector('.pageB');
-      //   if (!pageB) return;
-      //   const btnEl = pageB.querySelector('.wwads-hide');
-      //   if (btnEl) {
-      //     btnEl.onclick = () => {
-      //       pageB.style.display = 'none';
-      //     }
-      //   }
-      // }, 1000);
-
-      // // 显示广告模块
-      // const pageB = document.querySelector('.pageB');
-      // if (pageB) {
-      //   pageB.style.display = 'flex';
-      // }
+      // 删除事件改为隐藏事件
+      setTimeout(() => {
+        const pageB = document.querySelector('.pageB');
+        if (!pageB) return;
+        const btnEl = pageB.querySelector('.wwads-hide');
+        if (btnEl) {
+          btnEl.onclick = () => {
+            pageB.style.display = 'none';
+          }
+        }
+        // 显示广告模块
+        pageB.style.display = 'flex';
+      }, 0);
     })
   }
 }
