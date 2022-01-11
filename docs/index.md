@@ -129,3 +129,75 @@ postList: none
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;}
 </style>
+
+
+<!-- Happy new year -->
+<div class="container-happy">
+  <div>
+    <span>Happy</span>
+    <span>Wish</span>
+  </div>
+    <div>
+    <span>New</span>
+    <span>You</span>
+  </div>
+  <footer>
+      <div>
+    <span>Year</span>
+    <span>Luck</span>
+  </div>
+  <div>
+    <span>2022</span>
+    <span>Tomorrow</span>
+  </div>
+  </footer>
+</div>
+
+<style>
+.container-happy {
+  font-size: 18px;
+  font-family: Times New Roman;
+  perspective: 35rem;
+  width: 100%;
+  margin: 0 auto;
+  color: tomato;
+  opacity: 0.8;
+}
+
+.container-happy footer {
+  perspective: 35rem;
+  transform: translateY(-1.4rem);
+}
+
+.container-happy div {
+  font-size: 5rem;
+  height: 6rem;
+  overflow: hidden;
+  text-transform: uppercase;
+
+}
+
+.container-happy div>span {
+  display: block;
+  height: 6rem;
+  padding: 0 1rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  text-align: center;
+  transition: .3s;
+}
+
+.container-happy:hover div>span {
+  transform: translateY(-100%);
+}
+
+.container-happy div:nth-child(odd) {
+  background-color: #EBFCFF;
+  transform: rotateX(30deg);
+}
+
+.container-happy div:nth-child(even) {
+  background-color: #E6F4F1;
+  transform: translateY(-.6rem) rotateX(-30deg);
+}
+</style>
