@@ -120,18 +120,8 @@ postList: none
 #### Vdoing官方QQ群: 694387113
 :::
 
-<!-- AD -->
-<br/><br/>
-<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
-<style>
-  .pageB img{width:80px!important;}
-  .pageT .wwads-content{display:flex;align-items: center;}
-  .pageT .wwads-poweredby{display:none!important;}
-  .pageT .wwads-hide{display:none!important;}
-</style>
-
-
 <!-- Happy new year -->
+<br/>
 <div class="container-happy">
   <div>
     <span>Happy</span>
@@ -200,4 +190,14 @@ postList: none
   background-color: #E6F4F1;
   transform: translateY(-.6rem) rotateX(-30deg);
 }
+</style>
+
+<!-- AD -->
+<br/><br/>
+<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+<style>
+  .pageB img{width:80px!important;}
+  .pageT .wwads-content{display:flex;align-items: center;}
+  .pageT .wwads-poweredby{display:none!important;}
+  .pageT .wwads-hide{display:none!important;}
 </style>
