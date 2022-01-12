@@ -115,13 +115,13 @@ postList: none
 或者加入我们的QQ交流群：
 
 ::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/QQ20210730-002949@2x.57m20hgqvog0.png" alt="群号: 694387113" class="no-zoom" style="width:200px;">
+<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/qq.3ugglfuuwz00.webp" alt="群号: 694387113" class="no-zoom" style="width:200px;">
 
 #### Vdoing官方QQ群: 694387113
 :::
 
 <!-- Happy new year -->
-<br/>
+<br/><br/>
 <div class="container-happy">
   <div>
     <span>Happy</span>
@@ -193,7 +193,6 @@ postList: none
 </style>
 
 <!-- AD -->
-<br/><br/>
 <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
   .pageB img{width:80px!important;}
