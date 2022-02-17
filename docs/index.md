@@ -121,7 +121,7 @@ postList: none
 :::
 
 <!-- Happy new year -->
-<br/><br/>
+<!-- <br/><br/>
 <div class="container-happy">
   <div>
     <span>Happy</span>
@@ -190,7 +190,7 @@ postList: none
   background-color: #E6F4F1;
   transform: translateY(-.6rem) rotateX(-30deg);
 }
-</style>
+</style> -->
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
