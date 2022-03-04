@@ -199,4 +199,10 @@ module.exports = {
       }
     ]
   ],
+
+  // 监听文件变化并重新构建
+  extraWatchFiles: [
+    '.vuepress/config.js',
+    '.vuepress/config/htmlModules.js',
+  ]
 }
