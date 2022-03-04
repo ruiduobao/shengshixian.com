@@ -112,13 +112,22 @@ postList: none
 在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/xugaoyi/vuepress-theme-vdoing/issues)。
 你也可以在Issue查看别人提的问题和给出解决方案。
 
-或者加入我们的QQ交流群：
+或者加入我们的交流群：
 
-::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/qq.3ugglfuuwz00.webp" alt="群号: 694387113" class="no-zoom" style="width:200px;">
-
-#### Vdoing官方QQ群: 694387113
-:::
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/qq.3ugglfuuwz00.webp" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
+        <p>vdoing QQ群(已满): 694387113</p>
+      </td>
+      <td align="center" valign="middle">
+        <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store2@master/img/mmqrcode1646409021986.5m4pb5hehz80.png" class="no-zoom" style="width:120px;margin: 10px;">
+        <p>vdoing微信群(添加我的微信进群)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- Happy new year -->
 <!-- <br/><br/>
