@@ -70,6 +70,7 @@ postList: none
 <br/>
 
 ## 🎉上新推荐
+* `v1.10.x`：右侧目录栏适配h2~h6标题，[详情](/pages/8dfab5/)。
 * `v1.9.x`：新增配置文件对TypeScript的支持，参考[config.ts](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/docs/.vuepress/config.ts)。新增[标题标记](/pages/3216b0/#titletag)。
 * `v1.8.x`：新增 Markdown中使用的组件：[代码块选项卡](/pages/197691/#代码块选项卡) 。
 * `v1.7.x`：新增 [自定义html模块](/pages/a20ce8/#自定义html模块) 配置，可用于插入广告模块。

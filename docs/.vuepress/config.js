@@ -35,6 +35,7 @@ module.exports = {
           { text: 'Markdown 中使用组件', link: '/pages/197691/' },
           {
             text: '相关文章', items: [
+              { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
               { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
               { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
               { text: '部署', link: '/pages/0fc1d2/' },
@@ -199,6 +200,11 @@ module.exports = {
       }
     ]
   ],
+
+  markdown: {
+    // lineNumbers: true,
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+  },
 
   // 监听文件变化并重新构建
   extraWatchFiles: [
