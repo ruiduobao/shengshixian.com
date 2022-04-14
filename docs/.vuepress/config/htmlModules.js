@@ -21,25 +21,25 @@
 
 module.exports = {
   // 万维广告
-  pageB: `
-  <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+  pageT: `
+  <div class="wwads-cn wwads-horizontal page-ad" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
   <style>
-    .pageB img{width:80px!important;}
+    .page-ad img{width:80px!important;}
     .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
   </style>
   `,
-  windowRB: `
-    <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-    min-width: auto;min-height:auto;"></div>
-    <style>
-      .windowRB{ padding: 0;}
-      .windowRB .wwads-img{margin-top: 10px;}
-      .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-      .custom-html-window-rb .close-but{
-        display: none;
-      }
-    </style>
-  `
+  // windowRB: `
+  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
+  //   min-width: auto;min-height:auto;"></div>
+  //   <style>
+  //     .windowRB{ padding: 0;}
+  //     .windowRB .wwads-img{margin-top: 10px;}
+  //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
+  //     .custom-html-window-rb .close-but{
+  //       display: none;
+  //     }
+  //   </style>
+  // `
 }
 
 

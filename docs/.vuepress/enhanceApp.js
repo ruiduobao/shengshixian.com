@@ -23,16 +23,16 @@ export default ({
 
       // 删除事件改为隐藏事件
       setTimeout(() => {
-        const pageB = document.querySelector('.pageB');
-        if (!pageB) return;
-        const btnEl = pageB.querySelector('.wwads-hide');
+        const pageAD = document.querySelector('.pageAD');
+        if (!pageAD) return;
+        const btnEl = pageAD.querySelector('.wwads-hide');
         if (btnEl) {
           btnEl.onclick = () => {
-            pageB.style.display = 'none';
+            pageAD.style.display = 'none';
           }
         }
         // 显示广告模块
-        pageB.style.display = 'flex';
+        pageAD.style.display = 'flex';
       }, 0);
     })
   }
