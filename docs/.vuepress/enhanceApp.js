@@ -24,18 +24,18 @@ export default ({
       // 删除事件改为隐藏事件
       setTimeout(() => {
         const pageAD = document.querySelector('.page-ad');
-        console.log(pageAD);
         if (!pageAD) return;
         const btnEl = pageAD.querySelector('.wwads-hide');
-        console.log(btnEl, 'btnEl');
         if (btnEl) {
           btnEl.onclick = () => {
             pageAD.style.display = 'none';
           }
         }
         // 显示广告模块
-        pageAD.style.display = 'flex';
-      }, 1000);
+        if (pageAD.style.display === 'none') {
+          pageAD.style.display = 'flex';
+        }
+      }, 900);
     })
   }
 }
