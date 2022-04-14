@@ -32,11 +32,10 @@ export default ({
           btnEl.onclick = () => {
             pageAD.style.display = 'none';
           }
-          btnEl.attributes('onclick', "parentNode.style.display = 'none'")
         }
         // 显示广告模块
         pageAD.style.display = 'flex';
-      }, 100);
+      }, 1000);
     })
   }
 }
