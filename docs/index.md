@@ -204,10 +204,10 @@ postList: none
 </style> -->
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+<div class="wwads-cn wwads-horizontal page-ad" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
-  .pageB img{width:80px!important;}
-  .pageT .wwads-content{display:flex;align-items: center;}
+  .page-ad img{width:80px!important;}
+  /* .pageT .wwads-content{display:flex;align-items: center;}
   .pageT .wwads-poweredby{display:none!important;}
-  .pageT .wwads-hide{display:none!important;}
+  .pageT .wwads-hide{display:none!important;} */
 </style>
