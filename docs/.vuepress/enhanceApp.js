@@ -27,10 +27,12 @@ export default ({
         console.log(pageAD);
         if (!pageAD) return;
         const btnEl = pageAD.querySelector('.wwads-hide');
+        console.log(btnEl, 'btnEl');
         if (btnEl) {
           btnEl.onclick = () => {
             pageAD.style.display = 'none';
           }
+          btnEl.attributes('onclick', "parentNode.style.display = 'none'")
         }
         // 显示广告模块
         pageAD.style.display = 'flex';
