@@ -23,7 +23,7 @@ export default ({
 
       // 删除事件改为隐藏事件
       setTimeout(() => {
-        const pageAD = document.querySelector('.pageAD');
+        const pageAD = document.querySelector('.page-ad');
         if (!pageAD) return;
         const btnEl = pageAD.querySelector('.wwads-hide');
         if (btnEl) {
