@@ -6,3 +6,5 @@
 [在线文档(国内源)](https://doc.xugaoyi.com/)
 
 [主题仓库](https://github.com/xugaoyi/vuepress-theme-vdoing)
+
+[本仓库的gitee镜像](https://gitee.com/xugaoyi/vuepress-theme-vdoing-doc)
