@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+heroImage: /img/logo.png
 heroText: vuepress-theme-vdoing
 tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
 actionText: 开始使用 →
@@ -120,88 +120,17 @@ postList: none
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store2@master/img/mmqrcode1646409021986.5m4pb5hehz80.png" class="no-zoom" style="width:120px;margin: 10px;">
+        <img :src="$withBase('/img/qrcode/wxq.png')" class="no-zoom" style="width:120px;margin: 10px;">
         <p>vdoing微信群(添加我的微信进群)</p>
       </td>
       <td align="center" valign="middle">
-        <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/qq.3ugglfuuwz00.webp" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
+        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
         <p>vdoing QQ群: 694387113</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-<!-- Happy new year -->
-<!-- <br/><br/>
-<div class="container-happy">
-  <div>
-    <span>Happy</span>
-    <span>Wish</span>
-  </div>
-    <div>
-    <span>New</span>
-    <span>You</span>
-  </div>
-  <footer>
-      <div>
-    <span>Year</span>
-    <span>Luck</span>
-  </div>
-  <div>
-    <span>2022</span>
-    <span>Tomorrow</span>
-  </div>
-  </footer>
-</div>
-
-<style>
-.container-happy {
-  font-size: 18px;
-  font-family: Times New Roman;
-  perspective: 35rem;
-  width: 100%;
-  margin: 0 auto;
-  color: tomato;
-  opacity: 0.8;
-}
-
-.container-happy footer {
-  perspective: 35rem;
-  transform: translateY(-1.4rem);
-}
-
-.container-happy div {
-  font-size: 5rem;
-  height: 6rem;
-  overflow: hidden;
-  text-transform: uppercase;
-
-}
-
-.container-happy div>span {
-  display: block;
-  height: 6rem;
-  padding: 0 1rem;
-  font-weight: bold;
-  letter-spacing: .2rem;
-  text-align: center;
-  transition: .3s;
-}
-
-.container-happy:hover div>span {
-  transform: translateY(-100%);
-}
-
-.container-happy div:nth-child(odd) {
-  background-color: #EBFCFF;
-  transform: rotateX(30deg);
-}
-
-.container-happy div:nth-child(even) {
-  background-color: #E6F4F1;
-  transform: translateY(-.6rem) rotateX(-30deg);
-}
-</style> -->
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-ad" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
