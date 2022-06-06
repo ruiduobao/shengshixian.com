@@ -42,13 +42,13 @@ postList: none
 </p>
 
 ## 🎖特别用户
-::: cardList 2
+::: cardList 3
 ```yaml
-- name: OpenHarmony
-  desc: 开放原子开源基金会
-  link: https://docs.openharmony.cn/pages/000000/
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
+# - name: OpenHarmony
+#   desc: 开放原子开源基金会
+#   link: https://docs.openharmony.cn/pages/000000/
+#   bgColor: '#f1f1f1'
+#   textColor: '#2A3344'
 - name: MyBatis-Plus官网
   desc: 🚀为简化开发而生
   link: https://baomidou.com/
@@ -108,7 +108,7 @@ postList: none
 还有更多好玩的等你去探索吧~
 
 ::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
+<img src="https://fastly.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
 :::
 
 <br/> -->
