@@ -22,9 +22,9 @@
 module.exports = {
   // 万维广告
   pageT: `
-  <div class="wwads-cn wwads-horizontal page-ad" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+  <div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
   <style>
-    .page-ad img{
+    .page-wwads img{
       width:80px!important;
     }
     .wwads-horizontal .wwads-content{

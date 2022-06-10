@@ -137,9 +137,9 @@ postList: none
 
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal page-ad" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
+<div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
-  .page-ad img{width:80px!important;}
+  .page-wwads img{width:80px!important;}
   /* .pageT .wwads-content{display:flex;align-items: center;}
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;} */
