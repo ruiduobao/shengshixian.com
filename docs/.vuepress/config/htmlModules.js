@@ -38,7 +38,7 @@ module.exports = {
       display: flex;
       align-items: center;
     }
-    .wwads-horizontal .wwads-poweredby, .wwads-vertical .wwads-poweredby{display: none;!important;}
+    .wwads-horizontal .wwads-poweredby, .wwads-vertical .wwads-poweredby{display: none !important;}
   </style>
   `,
   // windowRB: `
