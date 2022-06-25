@@ -24,7 +24,7 @@ module.exports = {
   pageT: `
   <div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
   <style>
-    .page-wwads img{
+    .page-wwads .wwads-img img{
       width:80px!important;
     }
     .wwads-horizontal .wwads-content{
@@ -38,7 +38,6 @@ module.exports = {
       display: flex;
       align-items: center;
     }
-    .wwads-horizontal .wwads-poweredby, .wwads-vertical .wwads-poweredby{display: none !important;}
   </style>
   `,
   // windowRB: `
