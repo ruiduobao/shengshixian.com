@@ -21,8 +21,10 @@
 
 module.exports = {
   // 万维广告
-  sidebarT: `
-  <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+  sidebarB: `
+  <div style="display: flex;justify-content: center;">
+    <div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width: 150px;"></div>
+  </div>
   `,
   // windowRB: `
   //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
