@@ -23,7 +23,7 @@ postList: none
 </p>
 
 <style>
-.become-sponsor{
+.become-sponsor {
   padding: 8px 20px;
   display: inline-block;
   color: #11a8cd;
@@ -137,10 +137,4 @@ postList: none
 
 
 <!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
-<style>
-  .page-wwads .wwads-img img{width:80px!important;}
-  .wwads-horizontal .wwads-content{display: flex;align-items: center;}
-  .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;flex: 1;height: 100%;display: flex; align-items: center;}
-  .wwads-horizontal .wwads-poweredby, .wwads-vertical .wwads-poweredby{display: none !important;}
-</style>
+<div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
