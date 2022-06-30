@@ -22,7 +22,7 @@
 module.exports = {
   // 万维广告
   pageT: `
-    <div style="display: flex;justify-content: center;">
+    <div style="display: flex;">
       <div class="wwads-cn wwads-horizontal page-wwads" data-id="136" style="width: 425px;"></div>
     </div>
   `,
