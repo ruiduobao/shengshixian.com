@@ -21,7 +21,7 @@
 
 module.exports = {
   // 万维广告
-  pageT: `
+  sidebarT: `
   <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
   `,
   // windowRB: `
