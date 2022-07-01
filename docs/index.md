@@ -141,13 +141,14 @@ postList: none
 <style>
   .page-wwads{
     width:100%!important;
-    min-height: 80px;
+    min-height: 0;
+    margin: 0;
   }
   .page-wwads .wwads-img img{
     width:80px!important;
   }
   .page-wwads .wwads-poweredby{
-    width: 45px;
+    width: 40px;
     position: absolute;
     right: 25px;
     bottom: 3px;
