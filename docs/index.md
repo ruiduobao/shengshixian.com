@@ -140,11 +140,12 @@ postList: none
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
 <style>
   .page-wwads{
-      width:100%!important;
-      min-height: 80px;
+    width:100%!important;
+    min-height: 80px;
   }
   .page-wwads .wwads-img img{
     width:80px!important;
+    height: 100%;
   }
   .page-wwads .wwads-poweredby{
     width: 100px;
@@ -153,7 +154,9 @@ postList: none
     bottom: 17px;
   }
   .wwads-content .wwads-text, .page-wwads .wwads-text{
-    display: flex;
     height: 100%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-right: 250px;
   }
 </style>
