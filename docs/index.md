@@ -145,18 +145,16 @@ postList: none
   }
   .page-wwads .wwads-img img{
     width:80px!important;
-    height: 100%;
   }
   .page-wwads .wwads-poweredby{
-    width: 100px;
+    width: 45px;
     position: absolute;
-    left: 100px;
-    bottom: 17px;
+    right: 25px;
+    bottom: 3px;
   }
   .wwads-content .wwads-text, .page-wwads .wwads-text{
     height: 100%;
     padding-top: 5px;
-    padding-bottom: 50px;
-    padding-right: 250px;
+    display: block;
   }
 </style>
