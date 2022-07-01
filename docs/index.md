@@ -138,3 +138,22 @@ postList: none
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
+<style>
+  .page-wwads{
+      width:100%!important;
+      min-height: 80px;
+  }
+  .page-wwads .wwads-img img{
+    width:80px!important;
+  }
+  .page-wwads .wwads-poweredby{
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    bottom: 17px;
+  }
+  .wwads-content .wwads-text, .page-wwads .wwads-text{
+    display: flex;
+    height: 100%;
+  }
+</style>
