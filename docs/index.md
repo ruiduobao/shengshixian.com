@@ -125,7 +125,7 @@ postList: none
     <tr>
       <td align="center" valign="middle">
         <img :src="$withBase('/img/qrcode/wxq.png')" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing微信群(添加我的微信进群)</p>
+        <p>vdoing微信群(添加我微信备注"进群")</p>
       </td>
       <td align="center" valign="middle">
         <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
