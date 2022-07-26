@@ -124,7 +124,7 @@ postList: none
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/SaV6d0YfaAS0naAeQWibGVkSt6DxSaqGxdkJaeEqoJJ6M1NV1kq9aUqE3lGo7BuroTAoMg4rgibIIay1ibfvqXEiaA/0?wx_fmt=jpeg" class="no-zoom" style="width:120px;margin: 10px;">
+        <img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:120px;margin: 10px;">
         <p>vdoing微信群(添加我微信备注"进群")</p>
       </td>
       <td align="center" valign="middle">
