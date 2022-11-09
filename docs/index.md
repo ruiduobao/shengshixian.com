@@ -41,6 +41,14 @@ postList: none
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>
 </p>
 
+<br/>
+<p align="center" style="color: #999;">
+  赞助商
+</p>
+<p align="center">
+  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="/img/Apifox-2.png" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
+</p>
+
 ## 🎖特别用户
 ::: cardList 3
 ```yaml
@@ -89,13 +97,13 @@ postList: none
 
 <br/>
 
-## ⚡️未来...
+<!-- ## ⚡️未来...
 
 ::: tip
 期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
 
 届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress。还希望大家多多 [:sparkling_heart:支持](/pages/1b12ed/) 哟，持续关注吧~
-:::
+::: -->
 
 <br/>
 

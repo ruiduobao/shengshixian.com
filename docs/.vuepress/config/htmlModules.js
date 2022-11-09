@@ -45,6 +45,10 @@ module.exports = {
       }
   </style>
   `,
+  // 赞助商广告
+  sidebarT: `<a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="/img/Apifox-2.png" alt="npm" class="no-zoom" style="width: 100%;border-radius: 2px;"></a>`,
+
+
   // windowRB: `
   //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
   //   min-width: auto;min-height:auto;"></div>
