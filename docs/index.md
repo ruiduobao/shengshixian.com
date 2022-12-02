@@ -46,7 +46,7 @@ postList: none
   赞助商
 </p>
 <p align="center">
-  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/431669861564_.2470ykdcpbds.jpg" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
+  <a href="http://apifox.cn/a103xugaoyi" target="_blank"><img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/441669861566_.2bedplbm21hc.jpg" alt="npm" class="no-zoom" style="width: 300px;border-radius: 2px;"></a>
 </p>
 
 ## 🎖特别用户
