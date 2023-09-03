@@ -62,16 +62,16 @@ postList: none
   link: https://baomidou.com/
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
-- name: Deepin 社区
-  desc: Deepin 应用开发技术分享、DTK开发经验等
-  link: https://docs.deepin.org
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
-- name: VForm官网
-  desc: 低代码表单优选方案，拖拽式设计，一键生成源码
-  link: http://www.vform666.com
-  bgColor: '#f1f1f1'
-  textColor: '#2A3344'
+# - name: Deepin 社区
+#   desc: Deepin 应用开发技术分享、DTK开发经验等
+#   link: https://docs.deepin.org
+#   bgColor: '#f1f1f1'
+#   textColor: '#2A3344'
+# - name: VForm官网
+#   desc: 低代码表单优选方案，拖拽式设计，一键生成源码
+#   link: http://www.vform666.com
+#   bgColor: '#f1f1f1'
+#   textColor: '#2A3344'
 ```
 :::
 
