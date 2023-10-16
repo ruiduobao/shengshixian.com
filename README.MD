@@ -18,9 +18,8 @@ CTA_map 即是这样一套全国长时间序列的省市县矢量区划数据。
 | 2015年行政区划数据 | [点击下载](https://wwqb.lanzout.com/iZhRJ1bz5dlc) |
 | 2014年行政区划数据 | [点击下载](https://wwqb.lanzout.com/iZi3L1bz597e) |
 | 2013年行政区划数据 | [点击下载](https://pan.baidu.com/s/1EeJQ69YMziQK3wmH_IThmg?pwd=4444)                                      |
-
+![](http://pics.landcover100.com/i/2023/10/16/652d4baf5d590.png)
 百度网盘最新地址：
-
 链接：https://pan.baidu.com/s/173S3BXlp-FhlwlXZ2az3Gg?pwd=4444 
 提取码：4444 
 
