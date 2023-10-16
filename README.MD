@@ -25,11 +25,7 @@ CTA_map 即是这样一套全国长时间序列的省市县矢量区划数据。
 提取码：4444 
 
 
-
-![长时间序列的行政区划数据](http://pics.landcover100.com/pics/20222228/630b5a5878fdb.png)
-公众号：遥感家园
-
-![](http://pics.landcover100.com/pics/6241778738d1e.jpg)
+![公众号：遥感家园](http://pics.landcover100.com/pics/6241778738d1e.jpg)
 
 ## Star History
 
