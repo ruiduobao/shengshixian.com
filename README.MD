@@ -25,7 +25,7 @@ CTA_map 即是这样一套全国长时间序列的省市县矢量区划数据。
 ## 数据可视化
 
 如果想看展示效果，可以直接进入“省市县乡村”的五级数据查询与下载网站：https://map.ruiduobao.com/
-
+![CTAmap可视化](http://pics.landcover100.com/i/2023/11/02/65437f851c16c.jpg)
 ![公众号：遥感家园](http://pics.landcover100.com/pics/6241778738d1e.jpg)
 
 ## Star History
