@@ -24,5 +24,8 @@
     "vuepress-theme-vdoing": "^1.12.9",
     "yamljs": "^0.3.0"
   },
+  "overrides": {
+    "lodash.template": "4.5.0"
+  },
   "dependencies": {}
 }
