@@ -7,6 +7,12 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
+  // 多语言：导航栏自动出现 Languages 下拉，可在中英文页面间跳转
+  locales: {
+    '/': { lang: 'zh-CN', title: '省市县', description: '长时间序列行政区划数据' },
+    '/en/': { lang: 'en-US', title: 'CTAmap', description: 'China Temporal Administrative Map: a long time-series of administrative division data' },
+  },
+
   title: "省市县",
   description: '长时间序列行政区划数据',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -101,9 +107,33 @@ module.exports = {
     },
     htmlModules,
   },
+}
 
-  // 插件
-  plugins: [
+// VuePress 1 支持在 themeConfig 内按 locale path 覆盖
+// 注意：这里不要设 sidebar——/en/ 页面的结构化侧边栏由主题按目录自动生成
+// （键为 /en/CTAmap/），若在此处覆盖 sidebar 会导致英文侧边栏为空
+module.exports.themeConfig.locales = {
+  '/en/': {
+    nav: [
+      { text: 'Home', link: '/en/' },
+      { text: 'Data Download', link: '/en/pages/d35ae5/' },
+    ],
+    sidebarDepth: 2,
+    lastUpdated: 'Last Updated',
+    author: {
+      name: 'Ruiduobao',
+      href: 'https://github.com/ruiduobao/shengshixian.com',
+    },
+    footer: {
+      createYear: 2019,
+      copyrightInfo: 'Ruiduobao | MIT License',
+    },
+    selectText: 'Languages',
+  },
+}
+
+// 插件
+module.exports.plugins = [
     // [require('./plugins/love-me'), { // 鼠标点击爱心特效
     //   color: '#11a8cd', // 爱心颜色，默认随机色
     //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
@@ -173,16 +203,16 @@ module.exports = {
         },
       }
     ]
-  ],
-
-  markdown: {
-    // lineNumbers: true,
-    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
-  },
-
-  // 监听文件变化并重新构建
-  extraWatchFiles: [
-    '.vuepress/config.js',
-    '.vuepress/config/htmlModules.js',
   ]
+
+// markdown 配置
+module.exports.markdown = {
+  // lineNumbers: true,
+  extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
 }
+
+// 监听文件变化并重新构建
+module.exports.extraWatchFiles = [
+  '.vuepress/config.js',
+  '.vuepress/config/htmlModules.js',
+]
