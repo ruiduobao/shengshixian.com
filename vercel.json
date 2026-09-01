@@ -1,4 +1,7 @@
 {
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
+  "outputDirectory": "docs/.vuepress/dist",
+  "installCommand": "npm install",
   "headers": [
     {
       "source": "/assets/js/(.*)",

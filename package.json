@@ -1,9 +1,12 @@
 {
   "name": "theme-vdoing-doc",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
+    "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
     "predev": "vdoing",
     "prebuild": "vdoing",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
