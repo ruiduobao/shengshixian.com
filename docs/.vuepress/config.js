@@ -21,6 +21,7 @@ module.exports = {
     ['meta', { name: '省市县', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     ['script', { src: 'https://cdn.jsdelivr.net/npm/twikoo@1.5.9/dist/twikoo.all.min.js' }],
+    ['script', { defer: true, src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "4a6f7f8edf5c4eb3ab4ee0c2e2cb6cf6"}' }], // Cloudflare Web Analytics
 
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
