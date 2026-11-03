@@ -2,7 +2,7 @@
   <div class="ctamap-download">
     <div class="ctamap-top">
       <p class="ctamap-version">CTAmap v2.0（2026-09-01）· 2000–2026 年 · 省 / 市 / 县三级 · CC BY 4.0 · DOI: <a href="https://doi.org/10.5281/zenodo.22179207" target="_blank" rel="noopener">10.5281/zenodo.22179207</a></p>
-      <p class="ctamap-note">每年快照为该年 1 月 1 日 00:00 的状态（即上一年末），坐标系 WGS 84（EPSG:4326）。在下方选择格式后，点击任意年份即直接下载该年份数据，无需网盘、无提取码。全部文件托管于 Cloudflare R2（国内可直连）；数据集同时存档于 Zenodo（见上方 DOI）。GeoPackage 按省 / 市 / 县分文件，Shapefile 为该年三级合包。</p>
+      <p class="ctamap-note">每年快照为该年 1 月 1 日 00:00 的状态（即上一年末），坐标系 WGS 84（EPSG:4326）。在下方选择格式后，点击任意年份即可下载该年份数据。GeoPackage 按省 / 市 / 县分文件，Shapefile 为该年三级合包。</p>
       <div class="ctamap-format">
         <span>格式：</span>
         <button :class="{active: format === 'gpkg'}" @click="format = 'gpkg'">GeoPackage</button>
