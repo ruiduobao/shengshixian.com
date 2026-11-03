@@ -11,7 +11,6 @@
       <div class="ctamap-bundles">
         <span>附表与文档：</span>
         <a :href="releaseBase + 'tables.zip'">事件表 tables.zip（调整事件 / 批文索引 / 数据字典）</a>
-        <a :href="releaseBase + 'logs.zip'">变更文档 logs.zip（逐年变更说明与校验值）</a>
       </div>
     </div>
     <div class="ctamap-grid">
