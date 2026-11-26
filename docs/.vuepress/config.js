@@ -35,6 +35,15 @@ module.exports = {
         text: '数据下载', link: '/pages/d35ae5/', items: [
         ]
       },
+      {
+        text: '锐多宝工具箱', items: [
+          { text: '行政区划地图下载', link: 'https://map.ruiduobao.com/' },
+          { text: '卫星影像瓦片下载', link: 'https://layerdownload.ruiduobao.com/' },
+          { text: 'RDB 地理工具四件套', link: 'https://data.ruiduobao.cn/' },
+          { text: '遥感家园论坛', link: 'https://www.rserforum.com/' },
+          { text: '知识星球「经纬茶馆」', link: 'https://t.zsxq.com/zhiJk' },
+        ]
+      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -104,7 +113,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: '锐多宝 | MIT License', // 博客版权信息，支持a标签
+      copyrightInfo: '锐多宝 | MIT License<br>锐多宝工具箱：<a href="https://map.ruiduobao.com/" target="_blank">行政区划地图下载</a> · <a href="https://layerdownload.ruiduobao.com/" target="_blank">卫星影像瓦片下载</a> · <a href="https://data.ruiduobao.cn/" target="_blank">RDB 地理工具</a> · <a href="https://www.rserforum.com/" target="_blank">遥感家园论坛</a> · <a href="https://t.zsxq.com/zhiJk" target="_blank">知识星球「经纬茶馆」</a> · 微信公众号「锐多宝」', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
@@ -118,6 +127,15 @@ module.exports.themeConfig.locales = {
     nav: [
       { text: 'Home', link: '/en/' },
       { text: 'Data Download', link: '/en/pages/d35ae5/' },
+      {
+        text: 'RDB Toolbox', items: [
+          { text: 'Admin Boundaries Download', link: 'https://map.ruiduobao.com/' },
+          { text: 'Satellite Tile Download', link: 'https://layerdownload.ruiduobao.com/' },
+          { text: 'RDB Geo Tools', link: 'https://data.ruiduobao.cn/' },
+          { text: 'Remote Sensing Forum', link: 'https://www.rserforum.com/' },
+          { text: 'Knowledge Planet', link: 'https://t.zsxq.com/zhiJk' },
+        ]
+      },
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
@@ -127,7 +145,7 @@ module.exports.themeConfig.locales = {
     },
     footer: {
       createYear: 2019,
-      copyrightInfo: 'Ruiduobao | MIT License',
+      copyrightInfo: 'Ruiduobao | MIT License<br>RDB Toolbox: <a href="https://map.ruiduobao.com/" target="_blank">Admin Boundaries</a> · <a href="https://layerdownload.ruiduobao.com/" target="_blank">Satellite Tiles</a> · <a href="https://data.ruiduobao.cn/" target="_blank">RDB Geo Tools</a> · <a href="https://www.rserforum.com/" target="_blank">RS Forum</a> · <a href="https://t.zsxq.com/zhiJk" target="_blank">Knowledge Planet</a>',
     },
     selectText: 'Languages',
   },
